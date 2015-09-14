@@ -1,0 +1,48 @@
+div,p,img, span, ul,li{
+	z-index:1;
+}
+
+.background-copy{
+	position:absolute;
+	top:50px;
+	left:0;
+	padding:0 15% 0 15%;
+	width:100%;
+	z-index:0;
+	p{
+		font-size:97px;
+		line-height : 0.6;
+		color:$dark-grey;
+		z-index:0;
+		text-align:center;
+	}
+	@include xs {
+		padding:0;
+		overflow:hidden;
+	}
+}
+
+.information{
+	text-align: center;
+	.btn{
+		height:35px;
+		background: $red;
+		@include rounded(0);
+		min-width:250px;
+		clear:both;
+		line-height:25px;
+		border:none;
+		font-size:18px;
+		color:$white;
+		margin-bottom:10px;
+	}
+}
+
+.jack{
+	position:absolute;
+	bottom:0;
+	right:0;
+	@include xs {
+		position:relative;
+	}
+}

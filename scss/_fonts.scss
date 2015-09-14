@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'plakkaat';
+    src: url('fonts/plakkaat-webfont.eot');
+    src: url('fonts/plakkaat-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/plakkaat-webfont.woff2') format('woff2'),
+         url('fonts/plakkaat-webfont.woff') format('woff'),
+         url('fonts/plakkaat-webfont.ttf') format('truetype'),
+         url('fonts/plakkaat-webfont.svg#plakkaatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,html{
+	font-family : 'plakkaat', 'Arial';
+    background: $black;
+}
